@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "InterBold";
+    src: url(./fontes/Inter-Bold.ttf);
+}
+@font-face{
+    font-family: "InterRegular";
+    src: url(./fontes/Inter-Regular.ttf);
+}
+@font-face{
+    font-family: "InterLight";
+    src: url(./fontes/Inter-Light.ttf);
+}
+
+
+:root{
+    --preset--font-size--title: 24px;
+    --preset--font-size--price: 24px;
+    --preset--font-size--destaque: 16px;
+    --preset--font-size--paragraph: 16px;
+    --preset--text-transform: uppercase; 
+    --preset--color--black: #000000;
+    --preset--color--dark-gray: #D9D9D9;
+    --preset--color--light-gray: #EEEEEE;
+    --preset--color--white: #ffffff;
+    --preset--color--baby-blue: #E5F4FF;
+    --preset--color--blue: #1298F8;
+    --preset--color--green: #48D05F; /* Success */
+    --preset--color--red: #E92929; /* Attention */
+}

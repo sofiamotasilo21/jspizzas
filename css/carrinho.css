@@ -1,0 +1,82 @@
+.carrinho{
+    display: flex;
+    width: 400px;
+    padding: 12px 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: var(--preset--color--baby-blue);
+}
+.carrinho__tx--titulo{
+    display: flex;
+    height: 73px;
+    align-items: center;
+    align-content: center;
+    
+  
+
+}
+.carrinho__item{
+    display: flex;
+    height: 73px;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+
+
+.carrinho__tx{
+    flex-direction: column;
+}
+
+
+.carrinho__img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}
+.carrinho__btn--adicionar{
+    color: var(--preto, #000);
+    font-family:"interBold" ;
+    font-size: 16px;
+     
+}
+.carrinho__btn--remover{
+    color: var(--preto, #000);
+    font-family:"interBold" ;
+    font-size: 16px;
+}
+
+.carrinho__calculos{
+    display: flex;
+    padding: 24px 8px;
+    flex-direction: column;
+    flex-wrap: wrap;  
+}
+.carrinho__tx--item{
+    color: var(--azul-escuro, #1298F8);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+.carrinho__tx--valor{
+    color: var(--preset--color--black);
+    font-family: "interBold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.carrinho__tx--total{
+    color: var(--preset--color--black);
+    font-family: InterBold;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+   
+   
+   
